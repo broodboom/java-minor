@@ -34,4 +34,8 @@ public class StringService {
 
         return count;
     }
+
+    public String CapString(final String input) {
+        return input.toUpperCase();
+    }
 }
